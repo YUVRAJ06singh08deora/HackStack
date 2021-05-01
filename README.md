@@ -33,7 +33,14 @@ Our project aims to provide an end-to-end hyperlocal platform to connect local e
 - The app will allow the customer to create a list based on his needs.
 - In that list, the customer can set his estimated delivery date and time. 
 - That list will be circulated to all the shop keeper or vendors in the radius of 5 Km first and if none of the shopkeepers can fulfill the customer's need then  we will look out in further Kms of radius.
-Steps To Use The App
+###Steps To Use The App
+- Turn on dark mode on your phone(compulsory) 
+- Open the Apk file
+- Register through your gmail id
+- Then login as a buyer
+- Make a new list
+- Then submit the list
+- After submitting the list log out and agaiin login as the vendor to see the nearby requests
 ### 🌈 BUSINESS MODEL
 - Analytics and data sharing with e-commerce companies.
 - Partnering with delivery and logistics company for the last mile deliveries.
