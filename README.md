@@ -32,19 +32,20 @@ Our project aims to provide an end-to-end hyperlocal platform to connect local e
 ### 🔑 KEY FEATURES OF THE APP
 - The app will allow the customer to create a list based on his needs.
 - In that list, the customer can set his estimated delivery date and time. 
-- That list will be circulated to all the shop keeper or vendors in the radius of 5 Km first and if none of the shopkeepers can fulfill the customer's need then  we will look out in further Kms of radius.
+- That list will be circulated to all the shop keeper or vendors in a radius of 5 Km first and if none of the shopkeepers can fulfill the customer's need then  we will look out in further kms of radius.
+
 ###Steps To Use The App
 - Turn on dark mode on your phone(compulsory) 
 - Open the Apk file
-- Register through your gmail id
-- Then login as a buyer
+- Register through your Gmail id
+- Then log in as a buyer
 - Make a new list
 - Then submit the list
-- After submitting the list log out and agaiin login as the vendor to see the nearby requests
+- After submitting the list log out and again log in as the vendor to see the nearby requests
 ### 🌈 BUSINESS MODEL
 - Analytics and data sharing with e-commerce companies.
 - Partnering with delivery and logistics company for the last mile deliveries.
 - Charging service fee from the manufacturers/suppliers when they make a bulk sale through LOCARO
 ### FUTURE PROSPECT
-- Post covid, it is not that safe to export products from state or countries, here is when our app comes into picture.
-- Locally exported products delievered with utmost safety from LOCARO. 
+- Post covid, it is not that safe to export products from state or countries, here is when our app comes into the picture.
+- Locally exported products delivered with utmost safety from LOCARO. 
