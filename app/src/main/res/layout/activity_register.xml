@@ -70,7 +70,8 @@
                             style="@style/modifiedEditText"
                             android:hint="Name"
                             android:inputType="textPersonName"
-                            android:maxLines="1" />
+                            android:maxLines="1"
+                            android:textSize="15sp" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -83,7 +84,8 @@
                             style="@style/modifiedEditText"
                             android:hint="@string/login_email_hint"
                             android:inputType="textEmailAddress"
-                            android:maxLines="1" />
+                            android:maxLines="1"
+                            android:textSize="15sp" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -96,7 +98,8 @@
                             style="@style/modifiedEditText"
                             android:hint="Password"
                             android:inputType="textPassword"
-                            android:maxLines="1" />
+                            android:maxLines="1"
+                            android:textSize="15sp" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <com.google.android.material.textfield.TextInputLayout
@@ -109,7 +112,8 @@
                             style="@style/modifiedEditText"
                             android:hint="Confirm Password"
                             android:inputType="textPassword"
-                            android:maxLines="1" />
+                            android:maxLines="1"
+                            android:textSize="15sp" />
                     </com.google.android.material.textfield.TextInputLayout>
 
                     <br.com.simplepass.loading_button_lib.customViews.CircularProgressButton
