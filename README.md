@@ -11,11 +11,22 @@ Our project aims to provide an end-to-end hyperlocal platform to connect local e
 ###  Block Diagram
 ![image](https://user-images.githubusercontent.com/80596385/116772778-cac58980-aa6e-11eb-81c4-c57b12e4db5e.png)
 ### 👀App Insight
-![image](https://user-images.githubusercontent.com/80596385/116773109-111be800-aa71-11eb-91bd-c488be0f69b4.png)
+![image](https://user-images.githubusercontent.com/80596385/116773411-e0d54900-aa72-11eb-980e-54bf2d1c3f84.png)
 
-![image](https://user-images.githubusercontent.com/80596385/116773097-019c9f00-aa71-11eb-8db9-7fd13258bf26.png)
+![image](https://user-images.githubusercontent.com/80596385/116773415-ecc10b00-aa72-11eb-96b8-209f6b576e8a.png)
 
-![image](https://user-images.githubusercontent.com/80596385/116773103-0a8d7080-aa71-11eb-9d22-1e447d667b22.png)
+![image](https://user-images.githubusercontent.com/80596385/116773423-f6e30980-aa72-11eb-96b2-4091d9df0afb.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116773430-fe0a1780-aa72-11eb-9be6-97668e38b53a.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116773435-04988f00-aa73-11eb-9c97-95d08447943a.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116773447-0bbf9d00-aa73-11eb-9723-58b3b52a5469.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116773487-19752280-aa73-11eb-821c-888edfac246a.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116773494-2265f400-aa73-11eb-8235-d93691074903.png)
+
 
 
 ### 🔑 KEY FEATURES OF THE APP
