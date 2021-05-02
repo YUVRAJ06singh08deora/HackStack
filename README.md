@@ -23,7 +23,11 @@ Our project aims to provide an end-to-end hyperlocal platform to connect local e
 
 ![image](https://user-images.githubusercontent.com/80596385/116773435-04988f00-aa73-11eb-9c97-95d08447943a.png)
 
+![image](https://user-images.githubusercontent.com/80596385/116822689-e0859c80-ab9d-11eb-8e77-ed0458c1a6f8.png)
+
 ![image](https://user-images.githubusercontent.com/80596385/116773487-19752280-aa73-11eb-821c-888edfac246a.png)
+
+![image](https://user-images.githubusercontent.com/80596385/116822699-ed09f500-ab9d-11eb-9ae3-4b84254361f1.png)
 
 
 ### 🔑 KEY FEATURES OF THE APP
