@@ -12,21 +12,17 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="50dp"
         android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:padding="5dp"
+        app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/textView14"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="Yuraj" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -38,8 +34,24 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Milk" />
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Milk"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_done_24" />
 
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_clear_24" />
 
 
             </LinearLayout>
@@ -50,15 +62,32 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView15"
+                    android:id="@+id/textView18"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Butter" />
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Butter"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imageView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_done_24" />
 
+                <ImageView
+                    android:id="@+id/imageView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_clear_24" />
 
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -69,9 +98,27 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Paneer" />
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Paneer"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_done_24" />
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    app:srcCompat="@drawable/ic_baseline_clear_24" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -82,11 +129,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Address:Hadmatiya,Rajasthan 307514,INDIA" />
-
-
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Address: Hadmatiya, Rajasthan 307514, INDIA"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -97,11 +147,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Delivery Time: 9.30" />
-
-
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Delivery Time: 9.30"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -112,11 +165,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Delivery Date:01/05/2021" />
-
-
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Delivery Date:01/05/2021"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
@@ -127,31 +183,44 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
-                    android:text="Amount : 200" />
-
-
+                    android:fontFamily="@font/fredoka_one"
+                    android:padding="5dp"
+                    android:text="Amount : Rs.200"
+                    android:textColor="#333030"
+                    android:textSize="18sp" />
 
             </LinearLayout>
-
 
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
                 android:orientation="horizontal">
-                <ImageView
-                    android:id="@+id/imageView10"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
-                    app:srcCompat="@drawable/ic_baseline_done_24" />
 
-                <ImageView
-                    android:id="@+id/imageView3"
+                <Button
+                    android:id="@+id/button13"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="0.5"
-                    app:srcCompat="@drawable/ic_baseline_clear_24" />
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/cancel_button_background"
+                    android:backgroundTint="#3EC82F"
+                    android:fontFamily="@font/fredoka_one"
+                    android:gravity="center"
+                    android:text="Call Now" />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/cancel_button_background"
+                    android:fontFamily="@font/fredoka_one"
+                    android:gravity="center"
+                    android:text="Cancel" />
 
             </LinearLayout>
 

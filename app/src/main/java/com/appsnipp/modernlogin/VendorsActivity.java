@@ -64,4 +64,7 @@ public class VendorsActivity extends AppCompatActivity implements NavigationView
     public void newRequests(View view){
         startActivity(new Intent(this,NewListsActivity.class));
     }
+    public void  activeReq(View view){
+        startActivity(new Intent(this,RequestedActivity.class));
+    }
 }
