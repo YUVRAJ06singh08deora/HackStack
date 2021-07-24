@@ -43,6 +43,8 @@ Our project aims to provide an end-to-end hyperlocal platform to connect local e
 - Make a new list
 - Then submit the list
 - After submitting the list log out and again log in as the vendor to see the nearby requests
+### Video Link
+https://www.youtube.com/watch?v=GYyJYq19LjY
 ### 🌈 BUSINESS MODEL
 - Analytics and data sharing with e-commerce companies.
 - Partnering with delivery and logistics company for the last mile deliveries.
