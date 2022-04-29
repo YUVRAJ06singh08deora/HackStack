@@ -108,4 +108,9 @@ public class BuyersActivity extends AppCompatActivity implements NavigationView.
     public void active(View view){
         startActivity(new Intent(this,ActiveListsActivity.class));
     }
+    public void predictRain(View view){
+        startActivity(new Intent(this,rainPrediction.class));
+    }
+    public void cropRecommend(View view){startActivity(new Intent(this,cropRecommendation.class));
+    }
 }

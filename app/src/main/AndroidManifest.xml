@@ -12,12 +12,22 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/Kisanseva"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".NewListsActivity"></activity>
+        <activity android:name=".cropResult4"></activity>
+        <activity android:name=".cropResult3" />
+        <activity android:name=".cropResult2" />
+        <activity android:name=".cropResult1" />
+        <activity android:name=".rainfallResult4" />
+        <activity android:name=".rainfallResult3" />
+        <activity android:name=".rainfallResult2" />
+        <activity android:name=".rainfallResult1" />
+        <activity android:name=".cropRecommendation" />
+        <activity android:name=".rainPrediction" />
+        <activity android:name=".NewListsActivity" />
         <activity android:name=".ActiveListsActivity" />
         <activity android:name=".RequestedActivity" />
         <activity android:name=".NewRequestActivity" />

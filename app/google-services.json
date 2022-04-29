@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "764883648215",
-    "project_id": "test1-d7319",
-    "storage_bucket": "test1-d7319.appspot.com"
+    "project_number": "654524044665",
+    "project_id": "kisanseva-29efa",
+    "storage_bucket": "kisanseva-29efa.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:764883648215:android:c5e33eb1d0dcd953163a92",
+        "mobilesdk_app_id": "1:654524044665:android:abfe8b0ef0e4954f8e4ba8",
         "android_client_info": {
           "package_name": "com.appsnipp.modernlogin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "764883648215-4tf9t2vt2807hh32brh3p83p0ihi92ld.apps.googleusercontent.com",
+          "client_id": "654524044665-0ggtajj9c80p4n13s3s2j5jf2hqbq53m.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCW90W10Qp0uvBqWl_lhPpJlPfRe1bwEsk"
+          "current_key": "AIzaSyDJnKosSDfuBmu4xzQKRZ-s2dzccHRghy0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "764883648215-4tf9t2vt2807hh32brh3p83p0ihi92ld.apps.googleusercontent.com",
+              "client_id": "654524044665-0ggtajj9c80p4n13s3s2j5jf2hqbq53m.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

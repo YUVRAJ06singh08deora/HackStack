@@ -17,6 +17,8 @@ import android.widget.Spinner;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.DatabaseReference;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -25,6 +27,7 @@ import java.util.Locale;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
+
 
 public class NewRequestActivity extends AppCompatActivity {
 
@@ -36,6 +39,14 @@ public class NewRequestActivity extends AppCompatActivity {
     private int mHour, mMinute;
     public int a = 0;
     private String format = "";
+    Button setTime;
+    FirebaseDatabase rootnode;
+
+    // creating a variable for our Database
+    // Reference for Firebase.
+
+    DatabaseReference addressRef,item1ref,item2ref,item3ref,item4ref,item5ref,dateref,timeref,amtref,hashRef;
+
     /*@BindView(R.id.timePicker) private TimePicker timePicker1;*/
 
 
@@ -54,10 +65,10 @@ public class NewRequestActivity extends AppCompatActivity {
             }
         }*/
         ArrayList<String> categories = new ArrayList<String>();
-        categories.add("Grocery");
+        categories.add("Crop Items");
         categories.add("Dairy Products");
-        categories.add("Medicines");
-        categories.add("Electrical Equipment");
+        categories.add("Farm Utensils");
+        categories.add("fertilizers");
 
         Collections.sort(categories);
         /*for (String country : countries) {
@@ -160,5 +171,52 @@ public class NewRequestActivity extends AppCompatActivity {
         startActivity(new Intent(this,BuyersActivity.class));
         Toast.makeText(this, "New List added!", Toast.LENGTH_SHORT).show();
         finish();
+    }
+    public void sendList(View view){
+        EditText address=(EditText)findViewById(R.id.address);
+//        EditText category=(EditText)findViewById(R.id.spinner);
+        EditText item1=(EditText)findViewById(R.id.item1);
+        EditText item2=(EditText)findViewById(R.id.item2);
+        EditText item3=(EditText)findViewById(R.id.item3);
+        EditText item4=(EditText)findViewById(R.id.item4);
+        EditText item5=(EditText)findViewById(R.id.item5);
+        EditText date=(EditText)findViewById(R.id.datepicker);
+        EditText time=(EditText)findViewById(R.id.timePicker);
+        EditText amt=(EditText)findViewById(R.id.amt);
+
+        String date1= date .getText().toString();
+        String address1= address .getText().toString();
+        String item11= item1 .getText().toString();
+        String item12= item2 .getText().toString();
+        String item13= item3 .getText().toString();
+        String item14= item4 .getText().toString();
+        String item15= item5 .getText().toString();
+        String time1= time .getText().toString();
+        String amt1= amt .getText().toString();
+
+        int hash=17263;
+        String hash1=Integer.toString(hash);
+        rootnode=FirebaseDatabase.getInstance();
+        addressRef=rootnode.getReference("newRequest/address");
+        addressRef.setValue(address1);
+        item1ref=rootnode.getReference("newRequest/item1");
+        item1ref.setValue(item11);
+        item2ref=rootnode.getReference("newRequest/item2");
+        item2ref.setValue(item12);
+        item3ref=rootnode.getReference("newRequest/item3");
+        item3ref.setValue(item13);
+        item4ref=rootnode.getReference("newRequest/item4");
+        item4ref.setValue(item14);
+        item5ref=rootnode.getReference("newRequest/item5");
+        item5ref.setValue(item15);
+        timeref=rootnode.getReference("newRequest/time");
+        timeref.setValue(time1);
+        dateref=rootnode.getReference("newRequest/date");
+        dateref.setValue(date1);
+        amtref=rootnode.getReference("newRequest/amt");
+        amtref.setValue(amt1);
+        hashRef=rootnode.getReference("newRequest/hash");
+        hashRef.setValue(hash1);
+      hash++;
     }
 }

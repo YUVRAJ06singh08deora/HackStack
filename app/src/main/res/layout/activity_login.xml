@@ -32,7 +32,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/fredoka_one"
                 android:gravity="center"
-                android:text="LOCARO"
+                android:text="KISANSEVA"
                 android:textColor="#6C3CC1"
                 android:textSize="30sp" />
 
@@ -59,13 +59,13 @@
                     android:text="Already \nhave an \nAccount?" />
 
                 <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_width="437dp"
+                    android:layout_height="181dp"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentRight="true"
-                    android:layout_marginTop="2dp"
-                    android:layout_marginRight="-193dp"
-                    android:src="@drawable/shop" />
+                    android:layout_marginTop="4dp"
+                    android:layout_marginRight="-131dp"
+                    android:src="@drawable/kisanseva" />
 
             </RelativeLayout>
 

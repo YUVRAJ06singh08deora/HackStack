@@ -30,13 +30,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView16"
+                    android:id="@+id/item1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Milk"
+                    android:text="Wheat"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
@@ -49,13 +49,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView18"
+                    android:id="@+id/item2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Butter"
+                    android:text="Bajra"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
@@ -68,13 +68,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView8"
+                    android:id="@+id/item3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Paneer"
+                    android:text="Watermelon"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
@@ -86,7 +86,7 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView20"
+                    android:id="@+id/address"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
@@ -104,13 +104,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView21"
+                    android:id="@+id/time"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Delivery Time: 9.30"
+                    android:text="Delivery Time: 12.00"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
@@ -122,13 +122,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView22"
+                    android:id="@+id/date"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Delivery Date:01/05/2021"
+                    android:text="Delivery Date:26/05/2022"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
@@ -140,13 +140,13 @@
                 android:orientation="horizontal">
 
                 <TextView
-                    android:id="@+id/textView23"
+                    android:id="@+id/amt"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
                     android:fontFamily="@font/fredoka_one"
                     android:padding="5dp"
-                    android:text="Amount : Rs.200"
+                    android:text="Amount : Rs.500"
                     android:textColor="#333030"
                     android:textSize="18sp" />
 
