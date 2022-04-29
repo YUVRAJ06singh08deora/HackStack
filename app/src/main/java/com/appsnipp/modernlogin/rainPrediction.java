@@ -69,7 +69,7 @@ public class rainPrediction extends AppCompatActivity {
             resultActivity1();
         }
         else if(precipititation>5&&precipititation<10&&maxtemperature>5&&maxtemperature<10&&mintemperature>5&&mintemperature<10&&speedofwind>5&&speedofwind<10){
-            resultActivity2();
+            resultActivity21();
         }
         else if(precipititation>10&&precipititation<15&&maxtemperature>10&&maxtemperature<15&&mintemperature>10&&mintemperature<15&&speedofwind>10&&speedofwind<15){
             resultActivity3();
@@ -90,7 +90,7 @@ public class rainPrediction extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void resultActivity2() {
+    public void resultActivity21() {
         Intent intent = new Intent(this, rainfallResult2.class);
         startActivity(intent);
     }
