@@ -17,10 +17,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name="com.example.Dormir.LoginActivity" />
-        <!-- activitys -->
         <activity
-            android:name="com.example.Dormir.splashActivity"
+            android:name=".Dashboard"
+            android:exported="false" />
+        <activity android:name=".LoginActivity" /> <!-- activitys -->
+        <activity
+            android:name=".splashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,7 +31,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.Dormir.RegisterActivity"
+            android:name=".RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data

@@ -23,6 +23,15 @@
     <!--<color name="ucrop_color_statusbar">@color/teal_700</color>-->
     <!--<color name="ucrop_color_widget_active">@color/teal_500</color>-->
 
+    <!--    custom colors-->
+    <color name="primary">#2D7DF6</color>
+    <color name="background">#000000 </color>
+    <color name="primary_text">#AD5AF7</color>
+    <!--    <color name="secondary_text">#7D818A</color>-->
+    <color name="dark_shadow">#000000</color>
+    <color name="light_shadow">#000000</color>
+    <color name="dark_icon">#212121</color>
+
 
 
 </resources>
