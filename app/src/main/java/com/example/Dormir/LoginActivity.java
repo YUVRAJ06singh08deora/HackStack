@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Build;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
@@ -62,22 +63,17 @@ public class LoginActivity extends AppCompatActivity {
                     loginButton.setClickable(false);
                     loginProgressBar.setVisibility(View.VISIBLE);
                     mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(task -> {
-//                        if (task.isSuccessful()) {
-//                            if(switchUsers.isChecked()) {
-//                                startActivity(new Intent(LoginActivity.this, LoginActivity.class));
-//                                finish();
-//                            }
-//                            else{
-//                                startActivity(new Intent(LoginActivity.this, LoginActivity.class));
-//                                finish();
-//                            }
-//                            finish();
-//                        } else {
-//                            Snackbar.make(view, "There was an error. Please try again!", Snackbar.LENGTH_LONG).show();
-//                            Log.e("Error", "Login Error : " + task.getException());
-//                            loginProgressBar.setVisibility(View.INVISIBLE);
-//                            loginButton.setClickable(true);
-//                        }
+                        if (task.isSuccessful()) {
+
+                                startActivity(new Intent(LoginActivity.this, Dashboard.class));
+                                finish();
+
+                        } else {
+                            Snackbar.make(view, "There was an error. Please try again!", Snackbar.LENGTH_LONG).show();
+                            Log.e("Error", "Login Error : " + task.getException());
+                            loginProgressBar.setVisibility(View.INVISIBLE);
+                            loginButton.setClickable(true);
+                        }
                     });
                 }
             });

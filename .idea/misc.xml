@@ -3,12 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.16983695652173914" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.3691925048828125" />
+        <entry key="app/src/main/res/layout/activity_invite_code.xml" value="0.140625" />
+        <entry key="app/src/main/res/layout/activity_join_through_code.xml" value="0.1693840579710145" />
+        <entry key="app/src/main/res/layout/activity_linking.xml" value="0.140625" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_name.xml" value="0.1693840579710145" />
         <entry key="app/src/main/res/layout/activity_new_request.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_speed.xml" value="0.16983695652173914" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_map_.xml" value="0.12083333333333333" />
+        <entry key="app/src/main/res/layout/fragment_map__fragement.xml" value="0.16302083333333334" />
         <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.16983695652173914" />
+        <entry key="app/src/main/res/menu/main_menu.xml" value="0.1078125" />
       </map>
     </option>
   </component>
