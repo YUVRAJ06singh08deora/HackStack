@@ -3,12 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/drawable/divider_background.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/drawable/ic_connect.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/drawable/ic_history.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/drawable/ic_home.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/drawable/ic_profile.xml" value="0.1" />
-        <entry key="..\:/Users/hp/AndroidStudioProjects/HackStack/app/src/main/res/layout/activity_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_dashboard.xml" value="0.16983695652173914" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.16" />
         <entry key="app/src/main/res/layout/activity_new_request.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_register.xml" value="0.19610507246376813" />

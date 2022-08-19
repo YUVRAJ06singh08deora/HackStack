@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HackStack.iml" filepath="$PROJECT_DIR$/.idea/modules/HackStack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HackStack.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HackStack.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HackStack.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HackStack.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HackStack.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HackStack.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HackStack.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HackStack.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/HACKstack.iml" filepath="$PROJECT_DIR$/.idea/modules/HACKstack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HACKstack.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HACKstack.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HACKstack.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HACKstack.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HACKstack.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HACKstack.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/HACKstack.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/HACKstack.app.unitTest.iml" />
     </modules>
   </component>
 </project>
