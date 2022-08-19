@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.appsnipp.modernlogin">
+    package="com.example.Dormir">
     <!-- permission -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -12,30 +12,15 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/Kisanseva"
+        android:label="@string/DORMIR"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".cropResult4"></activity>
-        <activity android:name=".cropResult3" />
-        <activity android:name=".cropResult2" />
-        <activity android:name=".cropResult1" />
-        <activity android:name=".rainfallResult4" />
-        <activity android:name=".rainfallResult3" />
-        <activity android:name=".rainfallResult2" />
-        <activity android:name=".rainfallResult1" />
-        <activity android:name=".cropRecommendation" />
-        <activity android:name=".rainPrediction" />
-        <activity android:name=".NewListsActivity" />
-        <activity android:name=".ActiveListsActivity" />
-        <activity android:name=".RequestedActivity" />
-        <activity android:name=".NewRequestActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".VendorsActivity" />
-        <activity android:name=".BuyersActivity" /> <!-- activitys -->
+        <activity android:name="com.example.Dormir.LoginActivity" />
+        <!-- activitys -->
         <activity
-            android:name=".splashActivity"
+            android:name="com.example.Dormir.splashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.example.Dormir.RegisterActivity"
             android:theme="@style/AppTheme.NoActionBar" />
 
         <meta-data

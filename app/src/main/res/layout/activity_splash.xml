@@ -19,7 +19,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="true"
         app:lottie_loop="false"
-        app:lottie_rawRes="@raw/farmersplash"
+        app:lottie_rawRes="@raw/carsplash"
         app:lottie_speed="0.8" />
 
     <TextView
@@ -29,7 +29,7 @@
         android:layout_marginTop="180dp"
         android:alpha="0"
         android:fontFamily="@font/fredoka_one"
-        android:text="KISANSEVA"
+        android:text="DORMIR"
         android:textColor="#19C4DA"
         android:textSize="40sp"
         android:translationY="-65px"

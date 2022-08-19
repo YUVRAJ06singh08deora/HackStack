@@ -1,10 +1,10 @@
 <resources>
-    <string name="app_name">Locaro</string>
+    <string name="app_name">DORMIR</string>
     <string name="login_email_hint">Email</string>
     <string name="login_password_hint">Password</string>
     <string name="navigation_draw_open">open navigation drawer</string>
     <string name="navigation_draw_close">close navigation drawer</string>
-    <string name="Kisanseva">KisanSeva</string>
+    <string name="DORMIR">DORMIR</string>
 
     <!--for facebook login-->
 

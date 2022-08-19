@@ -1,4 +1,4 @@
-package com.appsnipp.modernlogin;
+package com.example.Dormir;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

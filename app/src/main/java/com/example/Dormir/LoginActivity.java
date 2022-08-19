@@ -1,16 +1,14 @@
-package com.appsnipp.modernlogin;
+package com.example.Dormir;
 
 import android.content.Intent;
 import android.os.Build;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.Switch;
 import android.widget.TextView;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -26,7 +24,7 @@ public class LoginActivity extends AppCompatActivity {
     @BindView(R.id.confirmPasswordEditText) EditText passwordEditText;
     @BindView(R.id.cirLoginButton) Button loginButton;
     @BindView(R.id.registerText) TextView registerText;
-    @BindView(R.id.switchUsers) Switch switchUsers;
+
     @BindView(R.id.loginProgressBar)
     ProgressBar loginProgressBar;
 
@@ -41,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
 
         ButterKnife.bind(this);
 
-        FirebaseAuth mAuth = FirebaseAuth.getInstance();
+      FirebaseAuth mAuth = FirebaseAuth.getInstance();
 
         registerText.setOnClickListener(view -> {
             startActivity(new Intent(LoginActivity.this, RegisterActivity.class));
@@ -64,22 +62,22 @@ public class LoginActivity extends AppCompatActivity {
                     loginButton.setClickable(false);
                     loginProgressBar.setVisibility(View.VISIBLE);
                     mAuth.signInWithEmailAndPassword(email, pass).addOnCompleteListener(task -> {
-                        if (task.isSuccessful()) {
-                            if(switchUsers.isChecked()) {
-                                startActivity(new Intent(LoginActivity.this, BuyersActivity.class));
-                                finish();
-                            }
-                            else{
-                                startActivity(new Intent(LoginActivity.this, VendorsActivity.class));
-                                finish();
-                            }
-                            finish();
-                        } else {
-                            Snackbar.make(view, "There was an error. Please try again!", Snackbar.LENGTH_LONG).show();
-                            Log.e("Error", "Login Error : " + task.getException());
-                            loginProgressBar.setVisibility(View.INVISIBLE);
-                            loginButton.setClickable(true);
-                        }
+//                        if (task.isSuccessful()) {
+//                            if(switchUsers.isChecked()) {
+//                                startActivity(new Intent(LoginActivity.this, LoginActivity.class));
+//                                finish();
+//                            }
+//                            else{
+//                                startActivity(new Intent(LoginActivity.this, LoginActivity.class));
+//                                finish();
+//                            }
+//                            finish();
+//                        } else {
+//                            Snackbar.make(view, "There was an error. Please try again!", Snackbar.LENGTH_LONG).show();
+//                            Log.e("Error", "Login Error : " + task.getException());
+//                            loginProgressBar.setVisibility(View.INVISIBLE);
+//                            loginButton.setClickable(true);
+//                        }
                     });
                 }
             });
